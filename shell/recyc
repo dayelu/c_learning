@@ -1,0 +1,13 @@
+#!/bin/bash
+files=`ls`
+file=$(ls)
+set $file
+echo $3
+echo $files
+echo $file
+for foo in bar $file
+do
+ echo $foo
+done
+
+exit 0

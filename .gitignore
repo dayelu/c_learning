@@ -56,3 +56,5 @@ exectue
 core
 test/
 *.txt
+
+*.bin

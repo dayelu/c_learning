@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -f input11 ]; then
+ echo wozai
+elif test -f args; then
+ echo args exists
+else
+ echo meiyou
+fi
+
+exit 0

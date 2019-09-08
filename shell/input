@@ -1,0 +1,5 @@
+#!/bin/bash
+read greet
+echo $greet
+
+exit 0
